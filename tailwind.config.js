@@ -7,8 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {},
-      button: {},
+      colors: {
+        dark: "#2D2D2D",
+        blue1: "#48ADFF",
+        blue2: "#002270",
+      },
+      button: {
+        primaryButton: {},
+        secondaryButton: {},
+        contactButton: {},
+      },
     },
   },
   plugins: [],

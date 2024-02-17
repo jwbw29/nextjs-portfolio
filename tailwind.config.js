@@ -12,11 +12,6 @@ module.exports = {
         blue1: "#48ADFF",
         blue2: "#002270",
       },
-      button: {
-        primaryButton: {},
-        secondaryButton: {},
-        contactButton: {},
-      },
     },
   },
   plugins: [],

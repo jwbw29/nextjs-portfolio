@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div className="flex flex-col items-start">
           <h2>About Me</h2>
         </div>
-        <p className="text-xl text-left">
+        <p className="text-xl text-left pr-8">
           I'm a former Product Owner who recently became a Full-Stack Engineer.
           I have years of experience in Product Strategy and Development,
           learning from users and how to build a user-friendly product. I wanted
@@ -21,14 +21,13 @@ const AboutMe = () => {
           applying those skills to see an idea come to reality. 
         </p>
       </div>
-      <div className="flex flex-col gap-6 w-1/2 justify-center">
+      <div className="flex flex-col gap-6 w-1/2 items-center justify-center">
         <Image
           className=" rounded-3xl"
           src={portrait}
-          height={300}
-          width={300}
+          height={400}
+          width={400}
           alt="Picture of the project"
-          //   layout="responsive"
         />
       </div>
     </div>

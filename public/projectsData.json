@@ -1,10 +1,34 @@
 [
   {
-    "name": "Project 1",
-    "subtitle": "Subtitle 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "name": "APOD",
+    "subtitle": "Astronomy Picture of the Day",
+    "description": "This was a project that was originally created with Webpack. I wanted to convert it to NextJS as it seemed simple enough to make the migration.\nI eventually decided the project was small enough to just create a new NextJS project and rebuild this from scratch instead of doing a direct migration. Creating the UI components was as easy as expected, but I started running into issues when trying to fetch the NASA API. Previously I was using Axios and I had read that Axios was not the ideal method if you wanted to optimize your NextJS application. After trying and failing several different routes, I ultimately decided to use the Client-Side Rendering to call the API.\nI'd still like to utilize and learn more about Server-Side Rendering in NextJS so that will be my next project on this application.",
     "image": "/nasa_pic.png",
-    "github": "https://github.com",
-    "live": "https://www.google.com"
+    "github": "https://github.com/jwbw29/nasa-pic-of-the-day",
+    "live": "https://nasa-pic-of-the-day.vercel.app/"
+  },
+  {
+    "name": "BT Pizza",
+    "subtitle": "State Management",
+    "description": "This is a simple project I built to practice state management. I used Axios and the Reqres fake data API to post new orders. I also used this project to practice TailwindCSS for the first time building the UI from scratch",
+    "image": "/btpizza.png",
+    "github": "https://github.com/jwbw29/PizzaForm",
+    "live": "https://pizza-form-brown.vercel.app/"
+  },
+  {
+    "name": "Robofriends",
+    "subtitle": "",
+    "description": "I built this project when going through the Zero-to-Mastery Full-Stack Development course. The main features of this project are the search bar and the scrolling component. The search bar filters the results based on the current state of the input box. The scroll feature allows you to scroll through the results while keeping the header and search bar static. For styling, I used Tachyons to learn more about that package.",
+    "image": "/robofriends.png",
+    "github": "https://github.com/jwbw29/ztm-robot-app",
+    "live": "https://ztm-robot-app.vercel.app/"
+  },
+  {
+    "name": "User Onboarding",
+    "subtitle": "",
+    "description": "This was one of the first projects I built. This project's main functionality is adding a new user to the running list of users, but only when all required fields are filled out correctly. I use Yup for clean password creation and error handling. I also used Cypress for Testing in this application. For styling, I used TailwindCSS to continue building my knowledge and experience with quick styling.",
+    "image": "/user_onboarding.png",
+    "github": "https://github.com/jwbw29/user-onboarding",
+    "live": "https://user-onboarding-woad.vercel.app/"
   }
 ]

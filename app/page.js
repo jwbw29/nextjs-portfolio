@@ -11,8 +11,9 @@ export default function Home() {
     <main className="bg-dark text-white flex min-h-screen flex-col items-center p-6 border border-red-500 border-solid">
       <div className=" max-w-7xl w-full items-left justify-between text-sm lg:flex flex-col border-2 border-blue-500 border-solid">
         <Header />
-        <div className="flex border border-solid border-white items-center justify-center">
+        <div className="flex flex-col gap-10 border border-solid border-white items-center justify-center">
           <h1>justin_byrd</h1>
+          <h3>Socials</h3>
         </div>
         <AboutMe />
         {projectsData.map((project, i) => (

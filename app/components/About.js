@@ -25,9 +25,10 @@ const AboutMe = () => {
         <Image
           className=" rounded-3xl"
           src={portrait}
-          width={500}
-          height={500}
+          height={300}
+          width={300}
           alt="Picture of the project"
+          //   layout="responsive"
         />
       </div>
     </div>

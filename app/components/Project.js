@@ -4,10 +4,18 @@ import { PrimaryButton, SecondaryButton } from "./Button";
 
 const Project = ({ project }) => {
   return (
-    <div className="flex gap-4 text-4xl border border-dashed border-white px-8 py-24 ">
+    <div className="flex h-screen gap-8 text-4xl border border-dashed border-white py-24 ">
       {" "}
-      <div className="flex flex-col gap-6 items-center justify-center w-1/2">
+      <div className="flex flex-col w-1/2 gap-12 justify-center">
+        <div className="flex flex-col items-start">
+          <h2>{project.name}</h2>
+          <h4>{project.subtitle}</h4>
+        </div>
+        <p className="text-xl text-left">{project.description}</p>
+      </div>
+      <div className="flex flex-col gap-6 w-1/2 justify-center">
         <Image
+          className=" rounded-3xl"
           src={project.image}
           width={500}
           height={500}
@@ -21,13 +29,6 @@ const Project = ({ project }) => {
             <SecondaryButton>CODE</SecondaryButton>
           </Link>
         </div>
-      </div>
-      <div className="flex flex-col w-1/2 gap-12">
-        <div className="flex flex-col items-end">
-          <h2>{project.name}</h2>
-          <h4>{project.subtitle}</h4>
-        </div>
-        <p className="text-xl text-justify">{project.description}</p>
       </div>
     </div>
   );

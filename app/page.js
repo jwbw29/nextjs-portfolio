@@ -14,8 +14,7 @@ export default function Home() {
         <div className="flex border border-solid border-white items-center justify-center">
           <h1>justin_byrd</h1>
         </div>
-        {/* <AboutMe /> */}
-        {/* <Project /> */}
+        <AboutMe />
         {projectsData.map((project, i) => (
           <Project key={i} project={project} />
         ))}

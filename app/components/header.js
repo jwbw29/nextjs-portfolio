@@ -3,7 +3,7 @@ import { ContactButton } from "./Button"; // Adjust the import path as needed
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-6">
+    <header className="flex justify-between items-center py-6">
       <div className="flex items-center">
         {/* <Image src="/logo.svg" alt="Logo" width={40} height={40} /> */}
         <h1>image</h1>

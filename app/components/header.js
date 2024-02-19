@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ContactButton } from "./button"; // Adjust the import path as needed
+import { ContactButton } from "./Button"; // Adjust the import path as needed
 
 const Header = () => {
   return (

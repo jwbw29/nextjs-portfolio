@@ -28,14 +28,14 @@ const Header = () => {
           </button>
         </Link>
 
-        <button className="h-14 w-32 text-2xl text-white bg-none focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1">
-          <a
-            href="/Justin Byrd - Full Stack Web Developer Resume_1 copy.pdf"
-            target="_blank"
-          >
+        <Link
+          href="/Justin Byrd - Full Stack Web Developer Resume_1 copy.pdf"
+          target="_blank"
+        >
+          <button className="h-14 w-32 text-2xl text-white bg-none focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1">
             Resume
-          </a>
-        </button>
+          </button>
+        </Link>
 
         <Link href="/contact">
           <ContactButton>Get In Touch</ContactButton>

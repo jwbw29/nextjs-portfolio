@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { ContactButton } from "./Button";
+import { SecondaryButton, ContactButton } from "./Button";
 
 import logo from "../../public/JB Logo.png";
 
@@ -16,12 +16,21 @@ const Header = () => {
             width={160}
             height={160}
             priority={true}
+            className="hover:shadow-lg hover:shadow-blue1 rounded-full"
           />
         </Link>
       </div>
       <div className="flex items-center gap-6">
         <Link href="/">
-          <h3 className="text-2xl ml-4">Home</h3>
+          <button className="h-14 w-32 text-2xl text-white bg-none focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1">
+            Home
+          </button>
+        </Link>
+
+        <Link href="/">
+          <button className="h-14 w-32 text-2xl text-white bg-none focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1">
+            Resume
+          </button>
         </Link>
 
         <Link href="/contact">

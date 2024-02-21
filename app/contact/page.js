@@ -25,8 +25,6 @@ const Contact = () => {
             <ContactSocials />
           </div>
           <div className="w-1/2 m-4 border border-dashed border-green-500">
-            {/*Use this link for guidance: https://v1.tailwindcss.com/components/forms#form-grid */}
-            {/*Use this link to build the functionality: https://www.youtube.com/watch?v=t2LvPXHLrek */}
             <EmailForm />{" "}
           </div>
         </div>

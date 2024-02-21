@@ -4,7 +4,7 @@ import { PrimaryButton, SecondaryButton } from "./Button";
 
 const Project = ({ project }) => {
   return (
-    <div className="flex min-h-screen text-4xl gap-12 border border-dashed border-white py-24 ">
+    <div className="flex min-h-screen text-4xl gap-12 py-24 ">
       {" "}
       <div className="flex flex-col w-1/2 gap-12 justify-center">
         <div className="flex flex-col items-start">

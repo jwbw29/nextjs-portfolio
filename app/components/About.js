@@ -6,7 +6,7 @@ import { PrimaryButton, SecondaryButton } from "./Button";
 
 const AboutMe = () => {
   return (
-    <div className="flex min-h-screen gap-4 text-4xl border border-dashed border-white py-24 ">
+    <div className="flex min-h-screen gap-4 text-4xl  py-24 ">
       {" "}
       <div className="flex flex-col w-1/2 gap-12 justify-center">
         <div className="flex flex-col items-start">

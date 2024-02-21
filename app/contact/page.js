@@ -1,30 +1,49 @@
+import Image from "next/image";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import EmailForm from "../components/EmailForm";
 import { ContactSocials } from "../components/Socials";
 
+import arrow from "../../public/rotated-right-arrow-svgrepo-com.svg";
+
 const Contact = () => {
   return (
-    <main className="bg-dark text-white flex min-h-screen flex-col items-center justify-between p-6 border border-red-500 border-solid">
-      <div className=" max-w-7xl w-full items-left justify-between text-sm lg:flex flex-col border-2 border-blue-500 border-solid">
+    <main className="bg-dark text-white flex min-h-screen flex-col items-center justify-between p-6">
+      <div className=" max-w-7xl w-full my-2 items-left justify-between text-sm lg:flex flex-col">
         <Header />
-        <div className="flex max-w-full border-2 border-solid border-white">
-          <div className="w-1/2 m-4 border border-dashed border-green-500">
-            <h1>Get In Touch</h1>
-            <p>Would love to hear from you!</p>
-            <p>
-              Send me an email or schedule a meeting{" "}
-              <a
-                href="https://calendly.com/justin-byrd7"
-                target="_blank"
-                className="underline"
-              >
-                here
-              </a>
-            </p>
-            <ContactSocials />
+        <div className="flex max-w-full py-12 px-6">
+          <div className="flex flex-col w-1/2 m-4 gap-12">
+            <div>
+              <h1>Let's Connect!</h1>
+            </div>
+            <div className="flex flex-col gap-2">
+              <div className="flex justify-end">
+                <div className="flex flex-1 items-center">
+                  <h3>Send me an email</h3>
+                </div>
+                <div className="flex items-end">
+                  <Image src={arrow} height={250} width={250} alt="arrow" />
+                </div>
+              </div>
+              <div>
+                <h3>
+                  or schedule a meeting{" "}
+                  <a
+                    href="https://calendly.com/justin-byrd7"
+                    target="_blank"
+                    className="underline text-blue1 hover:text-blue-300"
+                  >
+                    here
+                  </a>
+                </h3>
+              </div>
+            </div>
+            <div>
+              <ContactSocials />
+            </div>
           </div>
-          <div className="w-1/2 m-4 border border-dashed border-green-500">
+          <div className="w-1/2 m-4">
             <EmailForm />{" "}
           </div>
         </div>

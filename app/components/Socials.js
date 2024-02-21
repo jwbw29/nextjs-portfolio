@@ -27,13 +27,14 @@ const MainSocials = () => {
 };
 const ContactSocials = () => {
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-6">
       {socialUrls.map((url, index) => (
         <SocialIcon
           key={index} // Add a unique key for each icon
           url={url}
           target="_blank"
           className="hover:border hover:border-solid hover:border-white focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1"
+          style={{ height: 40, width: 40 }}
         />
       ))}
     </div>

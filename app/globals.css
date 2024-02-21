@@ -18,6 +18,9 @@
   h4 {
     @apply text-xl;
   }
+  input {
+    @apply border border-gray-300 rounded-md focus:ring-1 focus:ring-blue1;
+  }
 }
 
 @layer utilities {

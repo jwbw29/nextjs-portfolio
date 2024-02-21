@@ -23,7 +23,7 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-6">
         <Link href="/">
-          <button className="h-14 w-32 text-2xl text-white bg-none hover:border hover:border-solid hover:border-white focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1">
+          <button className="h-14 w-32 text-2xl text-white bg-none hover:border hover:border-solid hover:border-white focus:shadow-outline focus:ring-1 focus:ring-white rounded-full hover:shadow-md hover:shadow-blue1">
             Home
           </button>
         </Link>
@@ -32,7 +32,7 @@ const Header = () => {
           href="/Justin Byrd - Full Stack Web Developer Resume_1 copy.pdf"
           target="_blank"
         >
-          <button className="h-14 w-32 text-2xl text-white bg-none hover:border hover:border-solid hover:border-white focus:shadow-outline rounded-full hover:shadow-md hover:shadow-blue1">
+          <button className="h-14 w-32 text-2xl text-white bg-none hover:border hover:border-solid hover:border-white focus:shadow-outline focus:ring-1 focus:ring-white rounded-full hover:shadow-md hover:shadow-blue1">
             Resume
           </button>
         </Link>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import Hero from "./components/Hero";
 import AboutMe from "./components/About";
 import Project from "./components/Project";
 
@@ -16,12 +16,11 @@ export default function Home() {
       <div className=" max-w-7xl w-full items-left justify-between text-sm lg:flex flex-col border-2 border-blue-500 border-solid">
         <div className="min-h-screen flex flex-col border-4 border-solid border-green-700">
           <Header />
-          <div className="flex flex-col gap-10 border border-solid border-white items-center justify-center flex-1">
-            <h1 className="text-9xl text-blue1">justin_byrd</h1>
-            <h3>Socials</h3>
-          </div>
+          <Hero />
         </div>
+
         <AboutMe />
+
         {projectsData.map((project, i) => (
           <Project key={i} project={project} />
         ))}

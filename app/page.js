@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -8,7 +5,6 @@ import AboutMe from "./components/About";
 import Project from "./components/Project";
 
 import projectsData from "../public/projectsData.json";
-import backToTop from "../public/back_to_top.png";
 
 export default function Home() {
   return (
@@ -18,22 +14,12 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
-
         <AboutMe />
-
         {projectsData.map((project, i) => (
           <Project key={i} project={project} />
         ))}
       </div>
-      <div className="flex flex-col w-full justify-center items-center gap-8">
-        <Link href="/">
-          <div className="flex flex-col items-center justify-center gap-2">
-            <Image src={backToTop} width={35} height={35} alt="back_to_top" />
-            <h3 className="text-xl">Back to Top</h3>
-          </div>
-        </Link>
-        <Footer />
-      </div>
+      <Footer />
     </main>
   );
 }

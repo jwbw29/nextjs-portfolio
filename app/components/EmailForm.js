@@ -1,49 +1,43 @@
+import { PrimaryButton } from "./Button";
+
 const EmailForm = () => {
   return (
-    <div className="size-full ring-1 ring-white rounded-lg p-4">
+    <div className="size-full ring-1 ring-white rounded-lg p-8">
       <form>
-        <div className="border border-dashed border-white">
-          <label>First Name (required)</label>
+        <div className="flex flex-wrap mb-6">
+          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label>First Name (required)</label>
+            <input type="text" />
+          </div>
+          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label>Last Name (required)</label>
+            <input type="text" />
+          </div>
         </div>
 
-        <div className="border border-dashed border-white">
-          <input type="text" />
+        <div className="flex flex-wrap mb-6">
+          <div className="w-full px-3">
+            <label>Email (required)</label>
+            <input type="email" />
+          </div>
         </div>
 
-        <div className="border border-dashed border-white">
-          <label>Last Name (required)</label>
+        <div className="flex flex-wrap mb-6">
+          <div className="w-full px-3">
+            <label>Company</label>
+            <input type="text" />
+          </div>
         </div>
 
-        <div className="border border-dashed border-white">
-          <input type="text" />
+        <div className="flex flex-wrap mb-6">
+          <div className="w-full px-3">
+            <label>Message (required)</label>
+            <textarea rows="5" />
+          </div>
         </div>
 
-        <div className="border border-dashed border-white">
-          <label>Email (required)</label>
-        </div>
-
-        <div className="border border-dashed border-white">
-          <input type="email" />
-        </div>
-
-        <div className="border border-dashed border-white">
-          <label>Company</label>
-        </div>
-
-        <div className="border border-dashed border-white">
-          <input type="text" />
-        </div>
-
-        <div className="border border-dashed border-white">
-          <label>Message (required)</label>
-        </div>
-
-        <div className="border border-dashed border-white">
-          <input type="text" />
-        </div>
-
-        <div className="border border-dashed border-white">
-          <button type="submit">Submit</button>
+        <div className="flex px-3 justify-end">
+          <PrimaryButton type="submit">Send Email</PrimaryButton>
         </div>
       </form>
     </div>

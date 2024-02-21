@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/About";
 import Project from "./components/Project";
 
+//test
 import projectsData from "../public/projectsData.json";
 
 export default function Home() {

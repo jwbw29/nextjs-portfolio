@@ -7,6 +7,7 @@ const socialUrls = [
   "http://www.instagram.com/justin.byrd10",
   "http://www.x.com/tweeter__byrd",
   "http://www.youtube.com/jwbw29",
+  "https://t.snapchat.com/plTVcv4U",
 ];
 
 const MainSocials = () => {

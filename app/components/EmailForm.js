@@ -1,4 +1,4 @@
-import { PrimaryButton } from "./Button";
+import { PrimaryButton, SecondaryButton } from "./Button";
 
 const EmailForm = () => {
   return (
@@ -40,7 +40,8 @@ const EmailForm = () => {
         </div>
 
         <div className="flex px-3 justify-end">
-          <PrimaryButton type="submit">Send Email</PrimaryButton>
+          <SecondaryButton type="submit">Send Message</SecondaryButton>
+          <PrimaryButton type="submit">Send Message</PrimaryButton>
         </div>
       </form>
     </div>

@@ -13,18 +13,13 @@ const Contact = () => {
       <div className=" max-w-7xl w-full my-2 items-left justify-between text-sm lg:flex flex-col">
         <Header />
         <div className="flex max-w-full py-12 px-6">
-          <div className="flex flex-col w-1/2 m-4 gap-12">
+          <div className="flex flex-col w-1/2 m-4 gap-16 ">
             <div>
               <h1>Let's Connect!</h1>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="flex justify-end">
-                <div className="flex flex-1 items-center">
-                  <h3>Send me an email</h3>
-                </div>
-                <div className="flex items-end">
-                  <Image src={arrow} height={250} width={250} alt="arrow" />
-                </div>
+              <div className="flex flex-1 items-center">
+                <h3>Send me an email {"------->"} </h3>
               </div>
               <div>
                 <h3>

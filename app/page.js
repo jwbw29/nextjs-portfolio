@@ -1,8 +1,8 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import AboutMe from "./components/About";
-import Project from "./components/Project";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Hero from "./components/hero";
+import AboutMe from "./components/about";
+import Project from "./components/project";
 
 import projectsData from "../public/projectsData.json";
 

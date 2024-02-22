@@ -1,4 +1,4 @@
-import { PrimaryButton } from "./Button";
+import { PrimaryButton } from "./button";
 
 const EmailForm = () => {
   return (

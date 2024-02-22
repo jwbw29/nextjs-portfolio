@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 // import EmailForm from "../components/EmailForm";
-import { ContactSocials } from "../components/socials";
+import { ContactSocials } from "../../components/socials";
 
 const Contact = () => {
   return (

@@ -1,4 +1,4 @@
-import { MainSocials } from "./Socials";
+import { MainSocials } from "./socials";
 
 const Hero = () => {
   return (

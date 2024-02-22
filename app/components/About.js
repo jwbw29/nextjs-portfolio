@@ -2,8 +2,6 @@ import Image from "next/image";
 
 import portrait from "../../public/portrait.jpg";
 
-import { PrimaryButton, SecondaryButton } from "./Button";
-
 const AboutMe = () => {
   return (
     <div className="flex min-h-screen gap-4 text-4xl  py-24 ">

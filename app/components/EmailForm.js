@@ -2,7 +2,6 @@ import { PrimaryButton } from "./Button";
 
 const EmailForm = () => {
   return (
-    // * Use this link for guidance: https://v1.tailwindcss.com/components/forms#form-grid
     // * Use this link to build the functionality: https://www.youtube.com/watch?v=t2LvPXHLrek
 
     <div className="size-full ring-1 ring-white rounded-lg p-8">

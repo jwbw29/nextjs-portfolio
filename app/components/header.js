@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { SecondaryButton, ContactButton } from "./Button";
+import { ContactButton } from "./Button";
 
 import logo from "../../public/JB Logo.png";
-// import resume from "../../public/Justin Byrd - Full Stack Web Developer Resume_1 copy.pdf";
 
 const Header = () => {
   return (

@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import EmailForm from "../components/EmailForm";
+// import EmailForm from "../components/EmailForm";
 import { ContactSocials } from "../components/Socials";
 
 import arrow from "../../public/rotated-right-arrow-svgrepo-com.svg";

@@ -61,9 +61,7 @@ const Contact = () => {
               <ContactSocials />
             </div>
           </div>
-          <div className="w-1/2 m-4">
-            <EmailForm />{" "}
-          </div>
+          <div className="w-1/2 m-4">{/* <EmailForm />{" "} */}</div>
         </div>
       </div>
       <Footer />

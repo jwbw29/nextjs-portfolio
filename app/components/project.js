@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PrimaryButton, SecondaryButton } from "./button";
+import { PrimaryButton, SecondaryButton } from "./Button";
 
 const Project = ({ project }) => {
   return (

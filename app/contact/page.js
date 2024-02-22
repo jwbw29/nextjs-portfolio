@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 // import EmailForm from "../components/EmailForm";
-import { ContactSocials } from "../components/socials";
+import { ContactSocials } from "../components/Socials";
 
 import arrow from "../../public/rotated-right-arrow-svgrepo-com.svg";
 

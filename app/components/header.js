@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { ContactButton } from "./button";
+import { ContactButton } from "./Button";
 
 import logo from "../../public/JB Logo.png";
 

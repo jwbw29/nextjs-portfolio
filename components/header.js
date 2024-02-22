@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { ContactButton } from "./button";
 
-import logo from "../../public/JB Logo.png";
+import logo from "../public/JB Logo.png";
 
 const Header = () => {
   return (

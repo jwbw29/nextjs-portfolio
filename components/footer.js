@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import backToTop from "../../public/back_to_top.png";
+import backToTop from "../public/back_to_top.png";
 
 const Footer = () => {
   return (

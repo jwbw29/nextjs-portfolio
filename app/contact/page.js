@@ -3,8 +3,6 @@ import Footer from "../components/Footer";
 // import EmailForm from "../components/EmailForm";
 import { ContactSocials } from "../components/Socials";
 
-import arrow from "../../public/rotated-right-arrow-svgrepo-com.svg";
-
 const Contact = () => {
   return (
     <main className="bg-dark text-white flex min-h-screen flex-col items-center justify-between p-6">

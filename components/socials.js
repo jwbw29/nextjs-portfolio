@@ -12,7 +12,7 @@ const socialUrls = [
 
 const MainSocials = () => {
   return (
-    <div className="flex gap-2">
+    <div className="flex md:gap-2">
       {socialUrls.map((url, index) => (
         <SocialIcon
           key={index} // Add a unique key for each icon

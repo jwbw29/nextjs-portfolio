@@ -1,13 +1,15 @@
+"use client";
+
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import ComingSoon from "../../components/comingSoon";
-// import EmailForm from "../components/EmailForm";
+// import ComingSoon from "../../components/comingSoon";
+import EmailForm from "../../components/email";
 import { ContactSocials } from "../../components/socials";
 
 const Contact = () => {
   return (
     <main className="bg-dark text-white flex min-h-screen flex-col items-center justify-between p-6">
-      <div className=" max-w-7xl w-full my-2 items-left justify-between text-sm lg:flex flex-col">
+      <div className="max-w-7xl w-full my-2 items-left justify-between text-sm lg:flex flex-col">
         <Header />
         <div className="flex max-w-full py-12 px-6 ">
           <div className="flex flex-col w-1/2 m-4 gap-16 ">
@@ -25,7 +27,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col  gap-1 ">
+              <div className="flex flex-col gap-1 ">
                 <div className="flex flex-1 items-center">
                   <h3 className="text-2xl">{"Email"} </h3>
                 </div>
@@ -60,9 +62,8 @@ const Contact = () => {
           </div>
           <div className="w-1/2 m-4">
             {" "}
-            {/* //// TODO DELETE NEXT LINE WHEN ACTUAL EMAIL FORM IS ADDED */}
-            <ComingSoon />
-            {/* <EmailForm />{" "} */}
+            {/* <ComingSoon /> */}
+            <EmailForm />{" "}
           </div>
         </div>
       </div>

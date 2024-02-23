@@ -14,11 +14,14 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
+        {/* TODO */}
         <AboutMe />
+        {/* TODO */}
         {projectsData.map((project, i) => (
           <Project key={i} project={project} />
         ))}
       </div>
+      {/* TODO */}
       <Footer />
     </main>
   );

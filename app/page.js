@@ -14,6 +14,10 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
+        <div className="lg:hidden flex justify-center mt-8">
+          <div className="border-t-2 border-white w-2/3"></div>
+        </div>
+
         {/* TODO */}
         <AboutMe />
         {/* TODO */}

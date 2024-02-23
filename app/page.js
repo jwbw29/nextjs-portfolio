@@ -12,7 +12,6 @@ export default function Home() {
       <div className=" max-w-7xl w-full items-left justify-between text-sm lg:flex flex-col ">
         <div className="min-h-screen flex flex-col">
           <Header />
-          {/* TODO */}
           <Hero />
         </div>
         {/* TODO */}

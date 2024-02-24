@@ -2,8 +2,8 @@
 
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-// import ComingSoon from "../../components/comingSoon";
-import EmailForm from "../../components/email";
+import ComingSoon from "../../components/comingSoon";
+// import EmailForm from "../components/EmailForm";
 import { ContactSocials } from "../../components/socials";
 
 const Contact = () => {
@@ -62,8 +62,9 @@ const Contact = () => {
           </div>
           <div className="w-1/2 m-4">
             {" "}
-            {/* <ComingSoon /> */}
-            <EmailForm />{" "}
+            {/* //// TODO DELETE NEXT LINE WHEN ACTUAL EMAIL FORM IS ADDED */}
+            <ComingSoon />
+            {/* <EmailForm />{" "} */}
           </div>
         </div>
       </div>

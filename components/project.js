@@ -15,7 +15,7 @@ const Project = ({ project }) => {
           {project.description}
         </p>
       </div>
-      <div className="flex flex-col gap-6 lg:w-1/2 items-center justify-center">
+      <div className="flex flex-col gap-6 lg:gap-12 lg:w-1/2 items-center justify-center">
         <Image
           className=" rounded-3xl"
           src={project.image}
@@ -23,7 +23,7 @@ const Project = ({ project }) => {
           height={500}
           alt="Picture of the project"
         />
-        <div className="flex gap-4">
+        <div className="flex gap-4 lg:gap-8">
           <Link href={project.live} target="_blank">
             <PrimaryButton>LIVE</PrimaryButton>
           </Link>

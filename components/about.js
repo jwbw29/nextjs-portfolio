@@ -4,7 +4,7 @@ import portrait from "../public/portrait.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-col lg:flex-row min-h-screen gap-16 lg:gap-4 text-4xl py-24 ">
+    <div className="flex flex-col lg:flex-row min-h-screen gap-16 lg:gap-4 text-4xl py-12 lg:py-24 ">
       {" "}
       <div className="flex flex-col lg:w-1/2 gap-12 justify-center">
         <div className="flex flex-col items-center lg:items-start">
@@ -26,8 +26,8 @@ const AboutMe = () => {
           alt="Picture of the project"
         />
       </div>
-      <div className="lg:hidden flex justify-center mt-10">
-        <div className="border-b-2 border-white w-2/3"></div>
+      <div className="lg:hidden flex justify-center">
+        <div className="border-b-2 border-white w-2/3 mt-8"></div>
       </div>
     </div>
   );

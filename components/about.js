@@ -7,7 +7,10 @@ const AboutMe = () => {
     <div className="flex flex-col lg:flex-row min-h-screen gap-16 lg:gap-4 text-4xl py-24 ">
       {" "}
       <div className="flex flex-col lg:w-1/2 gap-12 justify-center">
-        <div className="flex flex-col items-center lg:items-start"></div>
+        <div className="flex flex-col items-center lg:items-start">
+          {" "}
+          <h2>{"About Me"}</h2>
+        </div>
         <p className="text-xl text-justify lg:text-left lg:pr-8">
           {
             "I'm a former Product Owner who recently became a Full-Stack Engineer. I have years of experience in Product Strategy and Development, learning from users and how to build a user-friendly product. I wanted to do more of the building myself and decided to become a full-stack engineer. I enjoy learning new and better ways to do things and then applying those skills to see an idea come to reality."

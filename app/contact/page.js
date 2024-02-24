@@ -37,7 +37,9 @@ const Contact = () => {
                     href="mailto:justinbyrd7@gmail.com"
                     className=" hover:text-blue-300"
                   >
-                    <p className="text-lg">{"✉️ justinbyrd7@gmail.com "}</p>
+                    <p className="text-md lg:text-lg">
+                      {"✉️ justinbyrd7@gmail.com "}
+                    </p>
                   </a>
                 </div>
               </div>
@@ -52,7 +54,9 @@ const Contact = () => {
                     target="_blank"
                     className=" hover:text-blue-300"
                   >
-                    <p className="text-lg">{"📆 calendly.com/justin-byrd7"}</p>
+                    <p className="text-md lg:text-lg">
+                      {"📆 calendly.com/justin-byrd7"}
+                    </p>
                   </a>
                 </div>
               </div>

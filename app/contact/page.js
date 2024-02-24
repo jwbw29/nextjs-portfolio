@@ -2,7 +2,6 @@
 
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import ComingSoon from "../../components/comingSoon";
 // import EmailForm from "../components/EmailForm";
 import { ContactSocials } from "../../components/socials";
 
@@ -60,12 +59,7 @@ const Contact = () => {
               <ContactSocials />
             </div>
           </div>
-          <div className="w-1/2 m-4">
-            {" "}
-            {/* //// TODO DELETE NEXT LINE WHEN ACTUAL EMAIL FORM IS ADDED */}
-            <ComingSoon />
-            {/* <EmailForm />{" "} */}
-          </div>
+          <div className="w-1/2 m-4">{/* <EmailForm />*/}</div>
         </div>
       </div>
       <Footer />

@@ -28,7 +28,7 @@ const MainSocials = () => {
 };
 const ContactSocials = () => {
   return (
-    <div className="flex gap-6">
+    <div className="flex justify-center gap-2">
       {socialUrls.map((url, index) => (
         <SocialIcon
           key={index} // Add a unique key for each icon

@@ -11,18 +11,23 @@ const Contact = () => {
         <Header />
         <div className="flex flex-col items-center max-w-full py-12 px-6 ">
           <div className="flex flex-col m-4 gap-16 ">
-            <h1 className="text-center">{"Let's Connect!"}</h1>
-
+            {/* //// LET'S CONNECT */}
+            <h1 className="text-left text-4xl lg:text-6xl">
+              {"Let's Connect!"}
+            </h1>
+            {/* //// LOCATION */}
             <div className="flex flex-col gap-8 items-left">
               <div className="flex flex-col  gap-1 items-left">
                 <div className="flex flex-1 items-center">
-                  <h3 className="text-2xl">{"Location"} </h3>
+                  <h3 className="text-xl lg:text-2xl">{"Location"} </h3>
                 </div>
                 <div className="flex flex-1 items-center text-gray-400">
-                  <p className="text-lg">{"📍 Missouri, United States "}</p>
+                  <p className="text-md lg:text-lg">
+                    {"📍 Missouri, United States "}
+                  </p>
                 </div>
               </div>
-
+              {/* //// EMAIL */}
               <div className="flex flex-col gap-1 items-left">
                 <div className="flex flex-1 items-center">
                   <h3 className="text-2xl">{"Email"} </h3>
@@ -36,7 +41,7 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-
+              {/* //// SCHEDULE */}
               <div className="flex flex-col  gap-1 items-left">
                 <div className="flex flex-1 items-center">
                   <h3 className="text-2xl">{"Schedule"} </h3>

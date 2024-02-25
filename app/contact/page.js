@@ -17,7 +17,7 @@ const Contact = () => {
             </h1>
             {/* //// LOCATION */}
             <div className="flex flex-col gap-8 items-left">
-              <div className="flex flex-col  gap-1 items-left">
+              {/* <div className="flex flex-col  gap-1 items-left">
                 <div className="flex flex-1 items-center">
                   <h3 className="text-xl lg:text-2xl">{"Location"} </h3>
                 </div>
@@ -26,7 +26,7 @@ const Contact = () => {
                     {"📍 Missouri, United States "}
                   </p>
                 </div>
-              </div>
+              </div> */}
               {/* //// EMAIL */}
               <div className="flex flex-col gap-1 items-left">
                 <div className="flex flex-1 items-center">
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
               </div>
               {/* //// SCHEDULE */}
-              <div className="flex flex-col  gap-1 items-left">
+              {/* <div className="flex flex-col  gap-1 items-left">
                 <div className="flex flex-1 items-center">
                   <h3 className="text-2xl">{"Schedule"} </h3>
                 </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                     </p>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div>
               <ContactSocials />

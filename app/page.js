@@ -19,20 +19,17 @@ export default function Home() {
           <Hero />
         </div>
 
-        {/* TODO */}
         {/* <AboutMe /> */}
-        {/* TODO */}
+
         {projectsData.map((project, i) =>
-          //ODD display Project Blue
           i % 2 === 0 || i === 0 ? (
             <ProjectBlue key={i} project={project} />
           ) : (
-            //If Even display ProjectBlack
             <ProjectBlack key={i} project={project} />
           )
         )}
       </div>
-      {/* TODO */}
+
       <div className="flex flex-col w-full justify-center items-center gap-8 mt-12">
         <Link href="/">
           <div className="flex flex-col items-center justify-center gap-2">

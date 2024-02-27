@@ -37,7 +37,7 @@ const ProjectBlack = ({ project }) => {
 };
 const ProjectBlue = ({ project }) => {
   return (
-    <div className="flex flex-col bg-blue1 lg:flex-row min-h-screen text-4xl gap-12 py-12 lg:py-24 ">
+    <div className="flex flex-col bg-blue2 -mx-6 p-6 lg:flex-row min-h-screen text-4xl gap-12 py-12 lg:py-24">
       {" "}
       <div className="flex flex-col lg:w-1/2 gap-16 lg:gap-12 justify-center">
         <div className="flex flex-col items-center lg:items-start">

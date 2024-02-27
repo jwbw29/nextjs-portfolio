@@ -5,7 +5,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import AboutMe from "../components/about";
-import Project from "../components/project";
+import { ProjectBlack, ProjectBlue } from "../components/project";
 
 import projectsData from "../public/projectsData.json";
 import backToTop from "../public/back_to_top.png";
@@ -18,16 +18,19 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
-        <div className="lg:hidden flex justify-center mt-8">
-          <div className="border-t-2 border-white w-2/3"></div>
-        </div>
 
         {/* TODO */}
-        <AboutMe />
+        {/* <AboutMe /> */}
         {/* TODO */}
-        {projectsData.map((project, i) => (
-          <Project key={i} project={project} />
-        ))}
+        {projectsData.map((project, i) =>
+          //ODD display Project Blue
+          i % 2 === 0 || i === 0 ? (
+            <ProjectBlue key={i} project={project} />
+          ) : (
+            //If Even display ProjectBlack
+            <ProjectBlack key={i} project={project} />
+          )
+        )}
       </div>
       {/* TODO */}
       <div className="flex flex-col w-full justify-center items-center gap-8 mt-12">

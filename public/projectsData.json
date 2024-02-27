@@ -1,5 +1,13 @@
 [
   {
+    "name": "About Me",
+    "subtitle": "",
+    "description": "I'm a former Product Owner who recently became a Full-Stack Engineer. I have years of experience in Product Strategy and Development, learning from users and how to build a user-friendly product. I wanted to do more of the building myself and decided to become a full-stack engineer. I enjoy learning new and better ways to do things and then applying those skills to see an idea come to reality.",
+    "image": "/portrait.jpg",
+    "github": "",
+    "live": ""
+  },
+  {
     "name": "APOD",
     "subtitle": "Astronomy Picture of the Day",
     "description": "This was a project that was originally created with Webpack. I wanted to convert it to NextJS as it seemed simple enough to make the migration.\nI eventually decided the project was small enough to just create a new NextJS project and rebuild this from scratch instead of doing a direct migration. Creating the UI components was as easy as expected, but I started running into issues when trying to fetch the NASA API. Previously I was using Axios and I had read that Axios was not the ideal method if you wanted to optimize your NextJS application. After trying and failing several different routes, I ultimately decided to use the Client-Side Rendering to call the API.\nI'd still like to utilize and learn more about Server-Side Rendering in NextJS so that will be my next project on this application.",

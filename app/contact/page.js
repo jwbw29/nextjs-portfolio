@@ -1,5 +1,3 @@
-"use client";
-
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import { ContactSocials } from "../../components/socials";
@@ -7,9 +5,9 @@ import { ContactSocials } from "../../components/socials";
 const Contact = () => {
   return (
     <main className="bg-dark text-white flex min-h-screen flex-col items-center justify-between p-6 pt-0">
-      <div className=" max-w-7xl w-full items-left text-sm lg:flex flex-col ">
+      <div className="flex flex-col justify-between flex-1 max-w-7xl w-full text-sm lg:flex lg:flex-col">
         <Header />
-        <div className="flex flex-col items-center max-w-full py-12 px-6 ">
+        <div className="flex flex-col items-center justify-center max-w-full py-12 px-6 flex-1">
           <div className="flex flex-col m-4 gap-16 ">
             <h1 className="text-left text-4xl lg:text-6xl">
               {"Let's Connect!"}

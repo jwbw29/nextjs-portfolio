@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,6 +11,10 @@ import { ProjectBlack, ProjectBlue } from "../components/project";
 
 import projectsData from "../public/projectsData.json";
 import backToTop from "../public/back_to_top.png";
+
+const handleClick = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
 export default function Home() {
   return (
@@ -31,12 +37,17 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col w-full justify-center items-center gap-8 mt-12">
-        <Link href="/">
-          <div className="flex flex-col items-center justify-center gap-2">
-            <Image src={backToTop} width={35} height={35} alt="back_to_top" />
-            <h3 className="text-xl">Back to Top</h3>
-          </div>
-        </Link>
+        <div className="flex flex-col items-center justify-center gap-2">
+          <Image
+            src={backToTop}
+            width={35}
+            height={35}
+            alt="back_to_top"
+            onClick={handleClick}
+            className="cursor-pointer"
+          />
+          <h3 className="text-xl">Back to Top</h3>
+        </div>
         <Footer />
       </div>
     </main>

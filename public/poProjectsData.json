@@ -1,0 +1,12 @@
+[
+  {
+    "name": "AgentDash",
+    "description": "AgentDash is a product I managed as a Product Owner at Veterans United. It's a mobile and web app designed to help in-network real estate agents manage their clients. The main goal behind AgentDash was to provide an easy way for agents to provide our Loan Officers with updates about the client's home-buying/home-selling journey.",
+    "image": "./agentdash.gif"
+  },
+  {
+    "name": "MyMove",
+    "description": "MyMove is a product I managed as a Product Owner at Veterans United. MyMove is a tool for borrowers who are currently in the home-buying process (stages between getting an offer accepted and closing). Borrowers can use MyMove to help set up mail-forwarding and get discounts on TV/Internet, home security, and moving companies. The goal behind MyMove was to increase borrower retention and create repeat borrowers. We wanted to make buying a home so easy that borrowers would return for any future home purchases.",
+    "image": "./mymove.gif"
+  }
+]

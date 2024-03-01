@@ -9,7 +9,7 @@ import Hero from "../components/hero";
 import AboutMe from "../components/about";
 import { ProjectBlack, ProjectBlue } from "../components/project";
 
-import projectsData from "../public/projectsData.json";
+import devProjectsData from "../public/devProjectsData.json";
 import backToTop from "../public/back_to_top.png";
 
 const handleClick = () => {
@@ -27,7 +27,7 @@ export default function Home() {
 
         {/* <AboutMe /> */}
 
-        {projectsData.map((project, i) =>
+        {devProjectsData.map((project, i) =>
           i % 2 === 0 || i === 0 ? (
             <ProjectBlue key={i} project={project} />
           ) : (

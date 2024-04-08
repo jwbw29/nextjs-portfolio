@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../public/JB Logo.png";
+import portrait from "../public/portrait.png";
 
 const Header = () => {
   return (
@@ -9,10 +9,9 @@ const Header = () => {
       <div className="flex items-center">
         <Link href="/">
           <Image
-            src={logo}
-            alt="Logo"
-            width={160}
-            height={160}
+            src={portrait}
+            alt="Portrait"
+            width={150}
             priority={true}
             className="hidden md:block hover:shadow-lg hover:shadow-blue1 rounded-full"
           />

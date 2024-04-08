@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import portrait from "../public/portrait.jpg";
+import portrait from "../public/portrait.png";
 
 const AboutMe = () => {
   return (

@@ -24,10 +24,7 @@ const Header = () => {
           </button>
         </Link>
 
-        <Link
-          href="/Justin Byrd - Full Stack Web Developer Resume_1 copy.pdf"
-          target="_blank"
-        >
+        <Link href="/Justin Byrd Web Developer Resume.pdf" target="_blank">
           <button className="text-2xl lg:h-14 lg:w-32 text-white bg-none lg:hover:border lg:hover:border-solid lg:hover:border-white focus:text-blue1 hover:text-blue1 lg:focus:shadow-outline lg:focus:ring-1 lg:focus:ring-white lg:rounded-full lg:hover:shadow-md lg:hover:shadow-blue1">
             Resume
           </button>

@@ -4,7 +4,7 @@ import { TfiAngleDown } from "react-icons/tfi";
 const Hero = () => {
   return (
     <div className="flex flex-col pb-12 items-center justify-center flex-1">
-      <div className="main flex flex-col gap-10 mt-auto">
+      <div className="main flex flex-col gap-10 mt-auto items-center">
         <h1 className="text-7xl md:text-9xl text-blue1">justin_byrd</h1>
         <MainSocials />
       </div>

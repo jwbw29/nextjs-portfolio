@@ -24,12 +24,16 @@ const ProjectBlack = ({ project }) => {
           alt="Picture of the project"
         />
         <div className="flex gap-4 lg:gap-8">
-          <Link href={project.live} target="_blank">
-            <PrimaryButton>LIVE</PrimaryButton>
-          </Link>
-          <Link href={project.github} target="_blank">
-            <SecondaryButton>CODE</SecondaryButton>
-          </Link>
+          {project.live && (
+            <Link href={project.live} target="_blank">
+              <PrimaryButton>LIVE</PrimaryButton>
+            </Link>
+          )}
+          {project.github && (
+            <Link href={project.github} target="_blank">
+              <SecondaryButton>CODE</SecondaryButton>
+            </Link>
+          )}
         </div>
       </div>
     </div>
@@ -56,16 +60,18 @@ const ProjectBlue = ({ project }) => {
           height={400}
           alt="Picture of the project"
         />
-        {project.live && project.github && (
-          <div className="flex gap-4 lg:gap-8">
+        <div className="flex gap-4 lg:gap-8">
+          {project.live && (
             <Link href={project.live} target="_blank">
               <PrimaryButton>LIVE</PrimaryButton>
             </Link>
+          )}{" "}
+          {project.github && (
             <Link href={project.github} target="_blank">
               <SecondaryButton>CODE</SecondaryButton>
             </Link>
-          </div>
-        )}
+          )}{" "}
+        </div>
       </div>
     </div>
   );

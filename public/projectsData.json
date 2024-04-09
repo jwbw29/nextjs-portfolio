@@ -3,8 +3,16 @@
     "name": "About Me",
     "subtitle": "",
     "description": "I'm a former Product Owner who recently became a Full-Stack Engineer. I have years of experience in Product Strategy and Development, learning from users and how to build a user-friendly product. I wanted to do more of the building myself and decided to become a full-stack engineer. I enjoy learning new and better ways to do things and then applying those skills to see an idea come to reality.",
-    "image": "/portrait.jpg",
+    "image": "/portrait.png",
     "github": "",
+    "live": ""
+  },
+  {
+    "name": "Small Group",
+    "subtitle": "",
+    "description": "I created this project for our church small group. I wanted to have a centralized source of information instead of having to rely on Google Sheets, calendars, and emails. I built the project with NextJS, TailwindCSS, Vercel Postgres, and Prisma. I wanted to learn more about databases and how to connect them to a NextJS application. I also wanted to learn more about authentication and how to secure a site. I used Auth0 for authentication and role-based authorization. I was previously familiar with standard React, Express, and SQLite. Learning how to use more modern tools like Prisma ORM and Postgres helped me get a new perspective on the same type of work. Learning how to combine those new tools with a framework like NextJS took things to the next level. My programming skills/logical thinking improved significantly on this project because I was almost forced to relearn some of my previous skills because I couldn't just operate off memory.",
+    "image": "/roster_expanded_desktop.png",
+    "github": "https://github.com/jwbw29/smallgroup",
     "live": ""
   },
   {

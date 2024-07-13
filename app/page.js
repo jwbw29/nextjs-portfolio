@@ -14,9 +14,9 @@ const handleClick = () => {
 
 export default function Home() {
   return (
-    <main className="bg-dark text-white flex min-h-screen flex-col items-center p-6 pt-0">
-      <div className=" max-w-7xl w-full items-left justify-between text-sm lg:flex flex-col ">
-        <div className="min-h-screen flex flex-col">
+    <main className="bg-dark text-white flex min-h-screen flex-col justify-center items-center py-6 pt-0">
+      <div className="w-full items-center justify-between text-sm lg:flex flex-col ">
+        <div className="w-full min-h-screen flex flex-col items-center justify-center">
           <Header />
           <Hero />
         </div>

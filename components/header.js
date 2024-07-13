@@ -5,7 +5,7 @@ import portrait from "../public/portrait.png";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-6">
+    <header className="flex justify-between items-center w-full p-6">
       <div className="flex items-center">
         <Link href="/">
           <Image

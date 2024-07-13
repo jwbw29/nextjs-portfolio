@@ -1,50 +1,50 @@
 [
   {
     "name": "About Me",
-    "subtitle": "",
+    "stack": "",
     "description": "I'm a former Product Owner who recently became a Full-Stack Engineer. I have years of experience in Product Strategy and Development, learning from users and how to build a user-friendly product. I wanted to do more of the building myself and decided to become a full-stack engineer. I enjoy learning new and better ways to do things and then applying those skills to see an idea come to reality.",
+    "features": [],
     "image": "/portrait.png",
     "github": "",
     "live": ""
   },
   {
+    "name": "Task App",
+    "stack": "Vite + ReactJS | TailwindCSS | Supabase | Vercel Serverless Functions",
+    "description": "Created this app to re-familiarize myself with React outside of Next.js. It was also my first time using the combination of Vite, Supabase, and Vercel Serverless Functions. I've used NextJS where Vercel serverless is built-in and had previously used Express for a project, but wanted to see how Serverless Functions compared. I used Supabase as the database as well as the Authenticator. The app utilizes Supabase's Anonymous Sign-in and saves the users session. This allows the user to only interact with their own tasks as long as their own the same device and don't clear their cache. As someone always looking for the ideal task/productivity app, this feels like a project I'll continue to build on and hopefully become my go-to task app.",
+    "features": [
+      "Add Task",
+      "Delete Task",
+      "Edit Task",
+      "Show/Hide Completed Tasks",
+      "Dark Mode Toggle"
+    ],
+    "image": "/task_app.png",
+    "github": "https://github.com/jwbw29/task-app-vite-react-js",
+    "live": "https://jwbw29-task-app.vercel.app/"
+  },
+  {
     "name": "Small Group",
-    "subtitle": "",
+    "stack": "NextJS | Postgres | Prisma | TailwindCSS | Auth0",
     "description": "I created this project for our church small group. I wanted to have a centralized source of information instead of having to rely on Google Sheets, calendars, and emails. I built the project with NextJS, TailwindCSS, Vercel Postgres, and Prisma. I wanted to learn more about databases and how to connect them to a NextJS application. I also wanted to learn more about authentication and how to secure a site. I used Auth0 for authentication and role-based authorization. I was previously familiar with standard React, Express, and SQLite. Learning how to use more modern tools like Prisma ORM and Postgres helped me get a new perspective on the same type of work. Learning how to combine those new tools with a framework like NextJS took things to the next level. My programming skills/logical thinking improved significantly on this project because I was almost forced to relearn some of my previous skills because I couldn't just operate off memory.",
-    "image": "/roster_expanded_desktop.png",
+    "features": [
+      "Role-Based Authorization",
+      "Next Event displayed on the homepage",
+      "Roster Page",
+      "Schedule of Events Page",
+      "User Profile"
+    ],
+    "image": "/smallgroup.png",
     "github": "https://github.com/jwbw29/smallgroup",
     "live": ""
   },
   {
     "name": "APOD",
-    "subtitle": "Astronomy Picture of the Day",
+    "stack": "NextJS | NASA API | TailwindCSS",
     "description": "This was a project that was originally created with Webpack. I wanted to convert it to NextJS as it seemed simple enough to make the migration.\nI eventually decided the project was small enough to just create a new NextJS project and rebuild this from scratch instead of doing a direct migration. Creating the UI components was as easy as expected, but I started running into issues when trying to fetch the NASA API. Previously I was using Axios and I had read that Axios was not the ideal method if you wanted to optimize your NextJS application. After trying and failing several different routes, I ultimately decided to use the Client-Side Rendering to call the API.\nI'd still like to utilize and learn more about Server-Side Rendering in NextJS so that will be my next project on this application.",
+    "features": [],
     "image": "/nasa_pic.png",
     "github": "https://github.com/jwbw29/nasa-pic-of-the-day",
     "live": "https://nasa-pic-of-the-day.vercel.app/"
-  },
-  {
-    "name": "BT Pizza",
-    "subtitle": "State Management",
-    "description": "This is a simple project I built to practice state management. I used Axios and the Reqres fake data API to post new orders. I also used this project to practice TailwindCSS for the first time building the UI from scratch",
-    "image": "/btpizza.png",
-    "github": "https://github.com/jwbw29/PizzaForm",
-    "live": "https://pizza-form-brown.vercel.app/"
-  },
-  {
-    "name": "Robofriends",
-    "subtitle": "",
-    "description": "I built this project when going through the Zero-to-Mastery Full-Stack Development course. The main features of this project are the search bar and the scrolling component. The search bar filters the results based on the current state of the input box. The scroll feature allows you to scroll through the results while keeping the header and search bar static. For styling, I used Tachyons to learn more about that package.",
-    "image": "/robofriends.png",
-    "github": "https://github.com/jwbw29/ztm-robot-app",
-    "live": "https://ztm-robot-app.vercel.app/"
-  },
-  {
-    "name": "User Onboarding",
-    "subtitle": "",
-    "description": "This was one of the first projects I built. This project's main functionality is adding a new user to the running list of users, but only when all required fields are filled out correctly. I use Yup for clean password creation and error handling. I also used Cypress for Testing in this application. For styling, I used TailwindCSS to continue building my knowledge and experience with quick styling.",
-    "image": "/user_onboarding.png",
-    "github": "https://github.com/jwbw29/user-onboarding",
-    "live": "https://user-onboarding-woad.vercel.app/"
   }
 ]

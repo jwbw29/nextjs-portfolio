@@ -48,7 +48,7 @@ const ProjectBlue = ({ project }) => {
           <h2>{project.name}</h2>
           <h4 className="font-extralight p-4">{project.stack}</h4>
         </div>
-        <p className="text-xl fong-light text-justify lg:text-left lg:pr-8">
+        <p className="text-xl font-light text-justify lg:text-left lg:pr-8">
           {project.description}
         </p>
       </div>
